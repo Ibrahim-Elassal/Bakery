@@ -1,0 +1,310 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+/* header */
+.home {
+    height: 100vh;
+    overflow: auto;
+    background-image: url("../imgs/drew-coffman-1872.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-position: center center ;
+}
+.home-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.content {
+    width:80% ;
+    text-align: center;
+    margin: 135px auto;
+}
+.content .title {
+    font-size: 24px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #ccc;
+}
+.content h1 {
+    font-size: 70px;
+    font-family: Alegreya,serif,monospace;
+    color: #fff;
+}
+.content .descr {
+    font-size: 24px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #ccc;
+    margin-top: -11px;
+}
+.btn-1 {
+    border: none;
+    padding: 15px 20px;
+    background-color: #8e7754;
+    border-radius: 5px;
+    color: white;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    font-size: 16px;
+}
+.btn-2 {
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    font-size: 16px;
+}
+.header-img {
+    float: left;
+    width: 150px ;
+    margin: 20px 0 0 5%;
+}
+.header-img img {
+    width: 100%;
+}
+.header-links {
+    float: right;
+    width: 36%;
+    margin:20px 20px 0 0  ;
+    
+}
+.header-links ul {
+    list-style-type: none ;
+   
+}
+.header-links ul li{
+    display: inline-block;
+    width: 14%;
+    font-family: 'Alegreya', serif;
+    color: white;
+}
+.header-links ul a {
+    text-decoration: none;
+}
+.clr {
+    clear: both;
+}
+/* end Header */
+
+/* start Who We Are  */
+.about {
+    width: 100%;
+}
+.about-content {
+    overflow: auto;
+    width: 50%;
+}
+.about-header {
+    text-align: center;
+    margin-top: 107px;
+    width: 85%;
+    margin-left: 5%;
+}    
+.about-header h2{
+    margin-bottom: 30px;
+}
+ .about-header p {
+    color: #686868 ;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 1.86em ;
+}
+.about .about-img {
+    width: 50%;
+    float: left;
+}
+.about .about-img img {
+    width: 80%;
+    margin: 7% 0 0 15%;
+    
+}
+.about-descr {
+    margin-left: 5%;
+}
+.about-descr p {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color:#686868;
+}
+/* end Who We Are  */
+/* start location */
+.location {
+    background-color: #f8f8f8;
+    width: 100%;
+    margin-top: 50px;
+    overflow: auto;
+}
+.location .location-content {
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+    float: left;
+}
+.location-content p{
+    color: #686868;
+    width: 87%;
+    margin: 4% 0 0 10%;
+    margin-left: 10%;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+}
+.location-image {
+    float: right;
+    width: 50%;
+    margin-top: 60px;
+}
+.location-image img {
+    width: 80%;
+    margin-left: 5% ;
+}
+/* end location */
+
+/* start our-baking */
+.baking {
+    width: 90%;
+    margin: auto;
+}
+.baking-content{
+    text-align: center;
+    overflow: auto;
+}
+.baking-content h2 {
+    margin: 3% 0 3%;
+}
+.baking-content p {
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    margin-bottom: 2%;
+}
+.baking-cards {
+    width: 100%;
+}
+.baking-cards .baking-card {
+    width: 33.3%;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px ;
+}
+.baking-card img {
+    width: 100%;
+}
+.baking-card p{
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    width: 95%;
+    margin-left: 10px;
+}
+/* End our-banking */
+/* start Information*/
+.information {
+    background-color: #f8f8f8;
+    width: 100%;
+    margin-top: 50px;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+.information .information-content {
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+    float: left;
+}
+.information-content p.title{
+    width: 85%;
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    margin: 5% 0 0 10%;
+}
+.information-content .details p {
+    color: #686868;
+    width: 85%;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    margin-left:  10%;
+}
+.details {
+    text-align: left;
+}
+.details div {
+    margin-left: 4%;
+}
+.information-maps {
+    float: right;
+    width: 50%;
+    margin-top: 60px;
+}
+.information-maps iframe {
+    width: 68%;
+    margin-left: 10% ;
+    display: inline-block;
+}
+/* end Information*/
+/* start about-us */
+.about-us {
+    
+    background-color: #403d38;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.about-us h4 {
+    color: white;
+    font-size: 20px;
+    margin-top: 15%;
+}
+.about-us .about-one {
+    width: 22%;
+    float: left;
+}
+ .about-us .about-one p {
+    color: #969696;
+    font-family: Alegreya,serif,monospace;
+    font-size: 23px;
+    margin: 15px;
+}
+.about-us .mg-2 p{
+    line-height: 1.90em;
+    font-family: Alegreya Sans,sans-serif,monospace ;
+    font-size: 18px;
+    margin: 0;
+}
+.about-us .about-mg div {
+    margin-left: 20px;
+} 
+.about-us .about-one {
+    margin-right: 6px;
+}
+hr {
+    border: 0.01px solid #1a1c1a88;
+}
+a{
+    text-decoration: none;
+}
+.mg-2 {
+    margin-left: 5.5%;
+}
+/* end about-us */
+/* start footer */
+.footer {
+    width: 100%;
+    background-color: #353330;
+    
+}
+.footer div {
+    text-align: center;
+    padding: 60px 0 ;
+}
+.footer img {
+    width: 18%;
+}
+.footer p {
+    font-size: 14px;
+    color: #969696;
+}
+/* end footer */
